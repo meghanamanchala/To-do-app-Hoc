@@ -1,6 +1,6 @@
 import React, {createRef, useState} from "react";
 import ListApp from "./components/ListApp";
-
+import './App.css';
 const App = () => {
   const inputBox = createRef();
   const [task, setTask] = useState("");
